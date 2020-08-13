@@ -1,0 +1,100 @@
+/** HEADER **/
+#header-nav {
+  background-color: #1380e6;
+  border-radius: 0;
+  border: 0;
+  width: 100%;
+}
+
+.navbar-brand {
+  padding-top: 10px;
+}
+.navbar-brand h1 { /* Foods LLC */
+  margin-left:0;
+  float: left;
+  font-family: Arial, serif;
+  color: #a3a3a3;
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 0.75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list li {
+  color: #951C49;
+  text-align: center;
+  font-size: 1.8em;
+}
+#nav-list li:hover {
+  background: #E7E7E7;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+/* Section */
+div.row {
+    width: 100%;
+    margin: 0;
+}
+
+#maincontainer {
+    background: #1380e6;
+    color:black;
+    height: 1000px;
+    align-items: center;
+}
+
+#maincontainer h2 {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+/*****************From small and beyond *********************/
+
+@media (min-width: 768px) {
+#header-nav div.container {
+    margin-left: 10px;
+}
+
+div.row {
+    width: auto;
+    margin: 0 20px 20px;
+}
+
+}
+
+/********** Extra small devices only **********/
+
+@media (max-width: 767px) {
+#collapsable-nav {
+    background: #a3a3a3;
+}
+
+.navbar-brand {
+  padding-top: 20px;
+}
+
+div.row {
+    width: auto;
+    margin: 0 40px 40px;
+}
+
+}
